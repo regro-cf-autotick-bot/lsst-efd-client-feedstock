@@ -1,5 +1,5 @@
 {% set name = "lsst-efd-client" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lsst-efd-client-{{ version }}.tar.gz
-  sha256: e304340eae2ca5fc390646278f2bb31679e799cabf0a3d2d0e778a8cdc36b141
+  sha256: 4eefa5e2d729a3279a90c8fe19af1ac964243cc9bab194e8f32f90f3bfcb8477
 
 build:
   noarch: python
